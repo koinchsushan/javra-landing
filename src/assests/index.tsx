@@ -1,0 +1,18 @@
+export { default as AI } from "./ai.png";
+export { default as collaboration } from "./collaboration 2.svg";
+export { default as development } from "./development.png";
+export { default as ecommerce } from "./ecommerce.png";
+export { default as enza } from "./enza.png";
+export { default as euro } from "./euro.png";
+export { default as Group } from "./Group.svg";
+export { default as ktm } from "./ktm.png";
+export { default as logotool } from "./logotool.png";
+export { default as netherland } from "./netherland.png";
+export { default as pf } from "./pf.png";
+export { default as pimcore } from "./pimcore.png";
+export { default as portugal } from "./portugal.png";
+export { default as progress } from "./progress.png";
+export { default as proponent } from "./proponent.png";
+export { default as quality } from "./quality-_1_ 1.svg";
+export { default as vector } from "./Vector.svg";
+export { default as web } from "./web.png";

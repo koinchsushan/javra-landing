@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// @font-face {
+//   font-family: "Montserrat";
+//   src: local("Lato"), url(./fonts/Montserrat-Regular.ttf) format("woff");
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  font-family: "Montserrat";
+}
+
+.main-container {
+  padding: 15px 15px;
+  font-family: 'Open Sans', sans-serif;
+
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    // color: #333333;
+  }
+
+  .main-heading {
+    font-size: 30px;
+    line-height: 55px;
+    font-weight: 500;
+    font-family: Advent Pro;
+  }
+
+  .location-container {
+    font-family: "Montserrat";
+
+    .responsive_img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+    }
+
+    .location-heading {
+      display: block;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 32px;
+      padding: 0 0 10px 0;
+    }
+  }
+
+  .services-container {
+    .green-rectangle {
+      background-color: #009b67;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 60px;
+      height: 60px;
+      margin-top: 5px;
+    }
+
+    .title {
+      font-size: 22px;
+      font-family: "Montserrat";
+      font-weight: 500;
+      // line-height: 55px;
+    }
+  }
+
+  .methodology-container {
+    .title {
+      color: #009b67;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 36px;
+    }
+  }
+
+  .project-container {
+    .company-title {
+      line-height: 30px;
+      font-family: "Montserrat";
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .mini-title {
+      font-size: 16px;
+      font-family: "Montserrat";
+      line-height: 30px;
+      font-weight: 400;
+      color: #57616a;
+    }
+
+    p {
+      color: #000000;
+    }
+
+    .pf-color {
+      color: #0e3d75;
+    }
+
+    .proponent-color {
+      color: #ea6525;
+    }
+
+    .enza-color {
+      color: #009b67;
+    }
+
+    .mit-color {
+      color: #054f7c;
+    }
+
+    .responsive_img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+    }
+  }
+}
